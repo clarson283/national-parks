@@ -1,0 +1,90 @@
+body {
+	height: 100%;
+}
+
+#head {
+	border: 1px solid #E6E6E6;
+	border-radius: 5px;
+	margin: 20px;
+	padding: 20px;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	color: #999999;
+}
+
+#head h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#head h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+#map-canvas {
+		width: 75%;
+		height: 238px;
+        margin: auto;
+        padding: 100px;
+        border-radius:5px;
+ 		border: 1px solid #E6E6E6;
+}
+
+#results-wrapping {
+	margin: 20px;
+}
+
+#results {
+	margin: auto;
+	text-align: center;
+}
+
+.photo {
+	display: inline-block;
+	margin: 10px;
+}
+
+img {
+ 	height:160px;
+}
+
+img, .imgData, .caption {
+ 	margin: 0 auto;
+ 	padding: 10px;
+ 	width:160px;
+ }
+
+ .imgData, .caption {
+ 	font-family: "Arial Narrow", Arial, sans-serif;
+ 	font-size: 14px;
+ 	color: #999999;
+ 	height: 19px;
+ 	overflow: hidden;
+ }
+
+ #results img {
+ 	border-radius:5px;
+ 	border: 1px solid #E6E6E6;
+	/*box-shadow: 5px 5px 5px #000000;*/
+	position: relative;
+ }
+
+
+
+ #footer {
+ 	margin-bottom: 0;
+ 	width: 99%;
+ 	background-color: #E6E6E6;
+ 	padding-top: 5px;
+ 	margin: auto;
+ }
+
+#footer #reloadbutton {
+	color: #333333;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	padding-bottom: 5px;
+ }
