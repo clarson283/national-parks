@@ -84,7 +84,8 @@ function bindEvent (marker, park, i) {
 			$('#results').show();
 			var noSpaces = park[0].replace(/\s+/g, '');
 			taggedPics(noSpaces, 0, 19);
-		
+			$('#head').html('#' + noSpaces).css({'font-size':'40px','text-align':'center',
+	'margin-bottom':'15px'});
 	});
 }
 
