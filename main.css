@@ -7,7 +7,7 @@ body {
 	border-radius: 5px;
 	margin: 20px;
 	padding: 20px;
-	font-family: "Arial Narrow", Arial, sans-serif;
+	font-family: 'Poiret One', cursive;
 	color: #999999;
 }
 
@@ -56,7 +56,7 @@ img, .imgData, .caption {
  }
 
  .imgData, .caption {
- 	font-family: "Arial Narrow", Arial, sans-serif;
+ 	font-family: 'Poiret One', cursive;
  	font-size: 14px;
  	color: #999999;
  	height: 19px;
@@ -82,7 +82,7 @@ img, .imgData, .caption {
 
 #footer #reloadbutton {
 	color: #333333;
-	font-family: "Arial Narrow", Arial, sans-serif;
+	font-family: 'Poiret One', cursive;
 	text-align: center;
 	text-decoration: none;
 	display: block;
